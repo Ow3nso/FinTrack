@@ -48,7 +48,7 @@ class GetStarted extends StatelessWidget {
               CustomButton(
                 label: 'Sign Up',
                 onPressed: () async {
-                  Navigator.pushNamed(context, '/OnboardingPageThree');
+                  Navigator.pushNamed(context, '/addPhoneNumberView');
                 },
                 color: Color(0xFF315EE7),
                 textColor: Colors.white,
@@ -61,7 +61,7 @@ class GetStarted extends StatelessWidget {
               CustomButton(
                 label: 'Log In',
                 onPressed: () async {
-                  Navigator.pushNamed(context, '/OnboardingPageThree');
+                  Navigator.pushNamed(context, '/loginView');
                 },
                 color: Colors.black,
                 textColor: Colors.white,

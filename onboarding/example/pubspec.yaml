@@ -32,6 +32,9 @@ dependencies:
   flutter:
     sdk: flutter
 
+  homepage:
+    path: ../../homepage
+
   onboarding: 
     path: ../
 
